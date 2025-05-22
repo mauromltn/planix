@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Planix
 
-## Getting Started
+Planix is a modern, minimal task management app built with Next.js. It offers a clean, responsive interface to manage your tasks efficiently, with smart features like autocomplete search and category-based tab navigation.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add, complete, and delete tasks
+- Filter tasks by category using tabs
+- Search tasks with autocomplete
+- Responsive UI built with shadcn/ui and Tailwind CSS
+- Local state management for todos, search, and active category
+- Easily extendable to localStorage or a database for persistence
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧩 Core Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **MainPage**: main layout that holds everything together
+- **TodoList**: displays the list of todos
+- **TodoItem**: represents a single task
+- **SearchBar**: handles search input and autocomplete suggestions
+- **CategoryTabs**: allows switching between task categories
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 State Management
 
-## Learn More
+The app handles local state for:
+- Todo list
+- Completion status
+- Active category
+- Search input
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- UI components from shadcn/ui
+- Fully responsive design with Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Tech Stack
 
-## Deploy on Vercel
+- Next.js
+- React
+- Tailwind CSS
+- shadcn/ui
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Add localStorage or database persistence
+- Modal to add/edit tasks
+- Drag & drop to reorder tasks
